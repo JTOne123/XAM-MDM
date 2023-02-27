@@ -87,12 +87,12 @@ To configure everything for your apps, we will switch between two primary tabs o
 
 ![intune website left tabs](Images/intune-left-tab.png)
  
-The overall configuration requires three main steps:
+### The overall configuration requires three main steps:
 1.	Add an app from the store.
 2.	Select assignments for users.
 3.	Set up managed configuration.
 
-Prerequisites
+### Prerequisites
 1.	[Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/#home)
 2.	Azure AD Premium P2 license (or trial)
 3.	[Azure Active Directory](https://portal.azure.com/#view/Microsoft_AAD_IAM/LicensesMenuBlade/~/Overview)
