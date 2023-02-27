@@ -20,7 +20,7 @@ What is MDM and why Intune?
 ![XAM-MDM proj logo](Images/XAM-MDM.png)
 Mobile device management involves administering a large fleet of mobile devices, including smartphones, tablet computers, and laptops. You can deliver settings, apps, and certificates to end devices with MDM. There are various types of MDM solutions available, but I opted for Microsoft Intune as part of the Microsoft tech stack, which should be familiar to .NET developers and Azure IT experts. Additionally, it offers a trial period for us to test our app. It's worth noting that our current approach is compatible with any third-party MDM solution, such as SOTI, Citrix, Blackberry, and more.
 
-Let's start right away with the source code for the demo app. You can find it through the following link.
+Let's start right away with the source code for the demo app. You can find it through the following [link](https://github.com/JTOne123/XAM-MDM).
 
 How to develop an MAUI/Xamarin app with MDM support (including Intune example)
 ====
