@@ -76,12 +76,12 @@ xcrun simctl spawn booted defaults delete com.pavlodatsiuk.xammdm
 ```
 
 ## UWP
-Unfortunately, there is no straightforward approach for delivering settings locally for UWP. However, you can build a local package and deliver it with Intune along with its settings. Let's move on to the next section of this article.
+Unfortunately, there is no straightforward approach for delivering settings locally for UWP. However, you can build a local package and deliver it with Intune along with its settings. So, let's move on to the next section of this article right away.
 
 Intune
 ====
 Let's log in to our Intune portal using the following [link](https://endpoint.microsoft.com/#home). Please note that you must have an Azure AD Premium P2 license or trial, and you can obtain a free trial on the [Azure portal](https://portal.azure.com/#view/Microsoft_AAD_IAM/LicensesMenuBlade/~/Overview).
-I will explain how to install apps from app stores as the primary source. However, we will make an exception for Windows and test our implementation before releasing it. Generally, you must release your app on Google Play and the Apple App Store before proceeding here.
+I will explain how to install apps from app stores as the primary source. Generally, you must release your app on Google Play and the Apple App Store before proceeding here. However, we will make an exception for Windows and deploy the app to test our implementation before releasing it to the Microsoft Store.
 
 To configure everything for your apps, we will switch between two primary tabs on the left side of the Intune website: Apps and Devices.
 
